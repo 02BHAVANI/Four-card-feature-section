@@ -1,0 +1,109 @@
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+}
+
+/* Heading Section */
+
+.heading{
+    padding: 4% 8%;
+    font-family: "Poppins";
+    text-align: center;
+    
+}
+.heading_1{
+    margin-top: 3px;
+    font-weight: 200;
+}
+.heading_2{
+    font-weight: 600;
+    margin-top: 1%;
+    color: hsl(234, 12%, 34%);
+}
+.heading_3{
+    font-weight: 400;
+    margin-top: 3%;
+    color: hsl(229, 6%, 66%);
+}
+
+/*  Section 2 Card-Images  */
+
+.builder,.supervisor,.calculator,.karma{
+    text-align: left;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: auto 50% auto 50%;
+    border: 4px solid;
+}
+
+.builder_text,.supervisor_text,.calculator_text,.karma_text{
+    font-family: "Poppins";
+    font-weight: lighter;
+    font-size: 10px;
+    margin: 10px 10px 10px 20px;
+}
+
+
+.builder_img,.supervisor_img,.calculator_img,.karma_img{
+    width: 40px;
+    margin-left: 180px;
+    margin-bottom: 5px;
+}
+h5{
+    margin-left: 20px;
+    font-family: "Poppins";
+    width: solid;
+    padding-top: 20px;
+}
+
+.builder{
+    border-width: 4px;
+    border-top-color: hsl(0, 78%, 62%);
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+}
+.supervisor{
+    border-top-color: hsl(180, 62%, 55%);
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+}
+.calculator{
+    border-top-color: hsl(212, 86%, 64%);
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+}
+.karma{
+    border-top-color: hsl(34, 97%, 64%);
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+}
+
+@media (min-width: 1350px){
+    .builder{
+        position: relative;
+    }
+    .supervisor{
+        position: absolute;
+        left: 280px;
+        top: 370px;
+    }
+    .calculator{
+        position: absolute;
+        right: 280px;
+        top: 370px;
+    }
+    .karma{
+        position: relative;
+        top: 10px;
+        left: 350;
+    }
+}
+.footer{
+    text-align: center;
+}
